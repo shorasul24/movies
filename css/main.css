@@ -1,0 +1,27 @@
+.width {
+   width: 35%;
+}
+
+.form-control, .form-select {
+   width: 100%;
+   max-width: 283px;
+}
+
+.form .btn {
+   width: 100%;
+   max-width: 283px;
+}
+
+.list-group-item {
+   width: 100%;
+   max-width: 283px;
+}
+
+.d-flex {
+   flex-direction: row;
+}
+
+ul,a {
+   list-style-type: none;
+   text-decoration: none;
+}

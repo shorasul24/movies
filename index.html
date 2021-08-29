@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/main.css">
+   <title>Movies</title>
+</head>
+
+<body>
+   <h1 class="text-center mt-0 mb4">
+      Movies catalog
+   </h1>
+   <div class="container d-flex pt-5 ">
+
+
+      <div class="width me-4">
+         <form class="form" action="#">
+            <input class="form-control  mb-3" type="text" placeholder="ave">
+            <input class="form-control  mb-3" type="text" placeholder="5">
+            <select class="form-select  mb-3" name="moves_ganer" id="#">
+               <option selected>All</option>
+               <option value="drama">Drama</option>
+               <option value="fantastik">Fantastik</option>
+               <option value="hisorical">Historical</option>
+            </select>
+
+            <select class="form-select  mb-3" name="moves_ganer" id="#">
+               <option selected>Rating(high to low)</option>
+               <option value="g">HD</option>
+               <option value="pg">FulLHD</option>
+               <option value="pg-13">HDR</option>
+            </select>
+            <button class="btn btn-primary mb-4">Search</button>
+         </form>
+         <h2 class="left-box__headding">Bookmarked moves</h2>
+
+         <ul class="list-group mb-3">
+            <li class="list-group-item">
+               <h5 class="item__headding">Avengers:Infinity War</h5>
+               <button class="btn btn-danger">Remove</button>
+            </li>
+
+            <li class="list-group-item">
+               <h5 class="item__headding">The Avengers</h5>
+               <button class="btn btn-danger">Remove</button>
+            </li>
+
+            <li class="list-group-item">
+               <h5 class="item__headding">12 Years a Slave</h5>
+               <button class="btn btn-danger">Remove</button>
+            </li>
+
+         </ul>
+
+      </div>
+
+
+      <div class="right-box w-100">
+         <h4 class="right-box__headding">Search results:39</h4>
+         <div class="alert alert-primary " role="alert">
+            Use a form on the left to search for a movie
+         </div>
+
+
+         <ul class="list-group d-flex mb-5">
+            <li class="list-item w-50 me-5">
+               <img src="./imges/avangart-original.jpg" alt="avangart-original" width="380" height="230">
+
+               <h5 class="left-box-inner__headding">
+                  Avengers: Infinty War
+               </h5>
+
+               <div class="d-flex mb-3">
+                  <img class="me-2" src="./imges/calendar.png" alt="pictue of calendar" width="24" height="24" />
+                  <p class="m-0">2018</p>
+               </div>
+
+               <div class="d-flex mb-3">
+                  <img class="me-2" src="./imges/star.png" alt="pictue of star" width="24" height="24" />
+                  <p class="m-0">8.7</p>
+               </div>
+
+               <div class="asdawdasdaw">
+                  <button class="btn btn-outline-primary me-3" type="button">
+                     Watch Trailer
+                  </button>
+
+                  <button type="button" class="btn btn-outline-success me-3" data-bs-toggle="modal"
+                     data-bs-target="#exampleModal">
+                     More Info
+                  </button>
+
+                  <button class="btn btn-outline-success" type="button">
+                     Bookmarks
+                  </button>
+               </div>
+            </li>
+
+            <li class="list-item w-50">
+               <img src="./imges/2012.jpg" alt="avangart-original" width="380" height="230">
+
+               <h5 class="left-box-inner__headding">
+                  The Avengers
+               </h5>
+
+               <div class="d-flex mb-3">
+                  <img class="me-2" src="./imges/calendar.png" alt="pictue of calendar" width="24" height="24" />
+                  <p class="m-0">2012</p>
+               </div>
+
+               <div class="d-flex mb-3">
+                  <img class="me-2" src="./imges/star.png" alt="pictue of star" width="24" height="24" />
+                  <p class="m-0">8.1</p>
+               </div>
+
+               <div class="asdawdasd">
+                  <button class="btn btn-outline-primary me-3" type="button">
+                     Watch Trailer
+                  </button>
+
+                  <button type="button" class="btn btn-outline-success me-3" data-bs-toggle="modal"
+                     data-bs-target="#exampleModal">
+                     More Info
+                  </button>
+
+                  <button class="btn btn-outline-success" type="button">
+                     Bookmarks
+                  </button>
+               </div>
+            </li>
+
+         </ul>
+         <div class="text-center">
+            <div class="btn-group">
+               <button type="button" class="btn btn-outline-primary active">1</button>
+               <button type="button" class="btn btn-outline-primary">2</button>
+               <button type="button" class="btn btn-outline-primary">3</button>
+               <button type="button" class="btn btn-outline-primary">4</button>
+
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+</body>
+
+</html>
